@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <title>Rendi testo Maiuscolo</title>
+    <style>
+
+      body {
+        background-color: #AAA;
+      }
+
+      div.innerBody{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 50px;
+        width: 90%;
+      }
+
+      p{
+        font-family: "Arial";
+      }
+
+      input.maiuscola{        
+        margin-left: 35%;
+        margin-right: 35%;
+        display: block;
+        width: 20%;
+      }
+
+      textarea.fromto{
+        width: 45%;
+        height: 500px;
+        margin-bottom: 0;
+        top: 30%;
+        display:  inline-block;
+      }
+
+    </style>
+
+  </head>
+
+
+  <body>
+
+  <div class="innerBody"> 
+    <div>
+      <p>Ciao Mamma. Per usare questo strumento ti basta incollare il testo nella prima area e cliccare il bottone.</p> 
+      <input class="maiuscola" id="bottoneMaius" type="button" value="Maiuscola" onclick="rendiMaiuscolo();" />
+    </div>
+
+    <textarea class="fromto" id="from">Inserisci qui il tuo testo</textarea>
+    <textarea class="fromto" id="to"></textarea>
+  </div>
+
+  </body>
+
+  <script type="text/javascript" src="main.js"></script>
+
+</html>
