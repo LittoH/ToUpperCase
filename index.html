@@ -21,7 +21,7 @@
       input.maiuscola{        
         margin-left: 35%;
         margin-right: 35%;
-        display: block;
+        display: inline-block;
         width: 20%;
       }
 
@@ -43,7 +43,8 @@
   <div class="innerBody"> 
     <div>
       <p>Ciao Mamma. Per usare questo strumento ti basta incollare il testo nella prima area e cliccare il bottone.</p> 
-      <input class="maiuscola" id="bottoneMaius" type="button" value="Maiuscola" onclick="rendiMaiuscolo();" />
+      <input class="maiuscola" id="bottoneMinus" type="button" value="Rendi Minuscolo" onclick="rendiMinuscolo();" />
+      <input class="maiuscola" id="bottoneMaius" type="button" value="Rendi Maiuscolo" onclick="rendiMaiuscolo();" />
     </div>
 
     <textarea class="fromto" id="from">Inserisci qui il tuo testo</textarea>
